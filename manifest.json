@@ -1,0 +1,27 @@
+{
+    "name": "Bookmark Carousel",
+    "description": "Sift through your old bookmarks like watching plastic horses on a carousel.",
+    "version": "0.1",
+    "options_page": "options.html",
+    "manifest_version": 2,
+    "background": {
+        "persistent": false,
+        "scripts": ["js/rotate_bookmarks.js"]
+    },
+    "permissions": ["bookmarks", "storage"],
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/carousel16.png",
+            "32": "images/carousel32.png",
+            "48": "images/carousel48.png",
+            "128": "images/carousel128.png"
+        }
+    },
+    "icons": {
+        "16": "images/carousel16.png",
+        "32": "images/carousel32.png",
+        "48": "images/carousel48.png",
+        "128": "images/carousel128.png"
+    }
+}
