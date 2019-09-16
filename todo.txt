@@ -9,13 +9,14 @@
     CHECK - since we're so limited... we can either have the icon show all the time or when
     it's bookmarked/not bookmarked.
     CHECK - Hey, we're geniuses. Ctrl-Shift-L. Ca-rou-sel.
-    TODO - letting bookmarks off the carousel (step off?)
-    - has a pretty logo and a pretty ui
-    - has a pretty description
+
+    CUT (INCLUDED IN CHOICE OF CAROUSEL) - letting bookmarks off the carousel (step off?)
+    TODO - has a pretty logo and a pretty ui
+    TODO - has a pretty description
 3. Extending/Preventing bad things functionality
     (note to self: "stepping off" means the bookmarks move to the specified carousel folder)
-    - choosing which folders to run the carousel
-    - choosing the name/destination for stepping off the carousel
-    - looking into potential weird behaviour of stepping off into the same folder
-    - but it might be ok if we specify that you can't step off into a carousel'd folder
-    - checkbox selection of carousel'd folders
+    TODO - choosing which folders to run the carousel
+    CUT (click the star) - choosing the name/destination for stepping off the carousel
+    CUT (above) - looking into potential weird behaviour of stepping off into the same folder
+    CUT (ABOVE) - but it might be ok if we specify that you can't step off into a carousel'd folder
+    CUT (isnt this a dupe of above?) - checkbox selection of carousel'd folders
