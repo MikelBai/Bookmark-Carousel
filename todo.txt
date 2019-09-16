@@ -1,12 +1,20 @@
 1. Basic functionality
-    - random selection of a bookmark
-    - option/choice to override new tab page
+    CHECK - random selection of a bookmark 
+    CAN CUT- option/choice to override new tab page
 2. Desired functionality
-    - letting bookmarks off the carousel (step off?)
-    - choosing which folders to run the carousel
+    CHECK - we're reworking the whole thing 'cause I don't want to read through the user's
+    whole bookmark library just to detect if it's bookmarked or not (seems like I can't
+    use declarativeContent's pageStateMatcher to set my popup page...)
+    CHECK - we'll have a hotkey, or the user can let their new tab be the carousel.
+    CHECK - since we're so limited... we can either have the icon show all the time or when
+    it's bookmarked/not bookmarked.
+    CHECK - Hey, we're geniuses. Ctrl-Shift-L. Ca-rou-sel.
+    TODO - letting bookmarks off the carousel (step off?)
     - has a pretty logo and a pretty ui
     - has a pretty description
 3. Extending/Preventing bad things functionality
+    (note to self: "stepping off" means the bookmarks move to the specified carousel folder)
+    - choosing which folders to run the carousel
     - choosing the name/destination for stepping off the carousel
     - looking into potential weird behaviour of stepping off into the same folder
     - but it might be ok if we specify that you can't step off into a carousel'd folder

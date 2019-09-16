@@ -2,17 +2,27 @@
     "name": "Bookmark Carousel",
     "description": "Sift through your old bookmarks like watching plastic horses on a carousel.",
     "version": "0.1",
-    "options_page": "options.html",
     "manifest_version": 2,
     "chrome_url_overrides" : {
     },
     "background": {
-        "scripts": ["js/background.js"],
+        "scripts": [
+            "js/background.js"
+        ],
         "persistent": false
     },
     "permissions": ["declarativeContent", "bookmarks", "storage"],
+    "commands": {
+        "carousel": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+L",
+                "mac": "Command+Shift+L"
+            },
+            "description": "Ride carousel"
+        }
+    },
     "page_action": {
-        "default_popup": "default_popup.html",
+        "default_popup": "popup.html",
         "default_icon": {
             "16": "images/carousel16.png",
             "32": "images/carousel32.png",
