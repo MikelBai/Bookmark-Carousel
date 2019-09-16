@@ -42,10 +42,3 @@ function processNode(node) {
         return urls;
     }
 }
-
-document.getElementById("preserve").onClick = function() {letOffCarousel()};
-
-// function letOffCarousel() {
-//     if ()
-// }
-
